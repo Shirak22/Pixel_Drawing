@@ -1,0 +1,7 @@
+.DrawingPanel {
+    background: rgb(0, 0, 0);
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}

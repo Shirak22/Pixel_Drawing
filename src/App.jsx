@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <h1>Pixel Editor</h1>
-      <DrawingPanel width={2} height={5} />
+      <DrawingPanel width={1} height={1} pixelSize = {10}/>
     </div>
   )
 }
