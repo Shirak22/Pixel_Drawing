@@ -5,8 +5,6 @@ function Color(props) {
     const {color} = props; 
     const [mainColor, setMainColor] = useContext(colorContext);
     let style = {
-        width: '20px',
-        height: '20px', 
         background: color
     }
     

@@ -5,3 +5,19 @@
     box-sizing: border-box;
     position: relative;
 }
+.panel__info {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.panel__info span {
+    width: 15px ;
+    height: 15px;
+    background: none;
+    margin-left:  .5rem;
+}
+.panel__info-color{
+    display: flex;
+    align-items: center;
+
+}

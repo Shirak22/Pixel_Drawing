@@ -3,25 +3,25 @@ import './Pixel.css'
 import {colorContext} from "./Editor"
 function Pixel(props) {
 
-  
-   
-    const [active, setActive] = useState(false); 
+    const [active, setActive] = useState(false);
     const {x,y,size} = props; 
     const [mainColor, setMainColor] = useContext(colorContext);
+    const [thisColor, setThisColor] = useState(mainColor);
     const style = {
         width:size + 'px',
         height: size + 'px',
         top:y,
-        left:x
+        left:x,
+        background: thisColor
     }
 
     function handleClick(){
            setActive(!active);
+           setThisColor(mainColor);
     }
-
-
+    
     return ( 
-        <div onClick = {handleClick} style={style} className={!active ? 'Pixel' : 'Pixel Pixel-click'} ></div>
+        <div data-pixel onClick = {handleClick} style={style} className='Pixel' ></div>
      )
 }
 

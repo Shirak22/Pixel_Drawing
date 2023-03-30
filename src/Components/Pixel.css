@@ -8,10 +8,6 @@
     /* transition: .1s;  */
 }
 .Pixel:hover {
-    background: #222; 
+    background: #111; 
     transition: .1s; 
-}
-
-.Pixel-click {
-    background: orange;
 }

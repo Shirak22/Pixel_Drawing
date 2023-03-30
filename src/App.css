@@ -46,3 +46,14 @@
   min-width: 500px;
 
 }
+.input__form{
+  display: flex;
+  gap: 1rem;
+}
+.input__form section {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  text-align: left;
+  padding: 1rem;
+}

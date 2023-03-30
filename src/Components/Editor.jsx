@@ -15,9 +15,7 @@ function Editor(props) {
             <section>
                 <ColorPalette />
                 <DrawingPanel width={width} height={height} pixelSize={pixelSize}/>
-
             </section>
-
         </colorContext.Provider>
    
 
