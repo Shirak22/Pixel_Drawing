@@ -29,7 +29,7 @@ function App() {
       </form>
 
       <Editor width={width} height={height} pixelSize ={pixelSize}/>
-   
+      <p className='app_info'>React Exercise 2023 <a target='_blank' href="https://github.com/Shirak22/Pixel_Drawing/tree/dev"><b>Pixelet</b></a>  by Shirak</p>
     </div>
   )
 }
